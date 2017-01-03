@@ -29,7 +29,7 @@
       }
     ],
     "space-before-function-paren": [
-      2,
+      "error",
       {
         "anonymous": "always",
         "named": "always",
