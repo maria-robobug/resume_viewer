@@ -21,19 +21,19 @@
     "react/jsx-uses-vars": [
       2
     ],
-    "no-unused-vars": [
-      1,
-      {
-        "vars": "all",
-        "args": "after-used"
-      }
-    ],
     "space-before-function-paren": [
       2,
       {
         "anonymous": "always",
         "named": "always",
         "asyncArrow": "ignore"
+      }
+    ],
+    "no-unused-vars": [
+      1,
+      {
+        "vars": "all",
+        "args": "after-used"
       }
     ],
     "no-undef": [
