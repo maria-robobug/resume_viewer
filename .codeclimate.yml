@@ -13,4 +13,4 @@ ratings:
     - "**.js"
 exclude_paths:
   - src/specs/**/*
-  - public/js
+  - public/js/**/*
