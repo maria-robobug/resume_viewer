@@ -40,7 +40,7 @@ class App extends React.Component {
 	render () {
 		return (
       <div className="App">
-        <Header />
+        <Header data={this.state.resumeData.main}/>
 				<About />
 				<Resume />
 				<Portfolio />
