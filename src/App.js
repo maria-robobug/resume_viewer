@@ -28,7 +28,6 @@ class App extends React.Component {
 				this.setState({resumeData: data});
 			},
 			error: (xhr, status, error) => {
-				console.log(error);
 				alert(error);
 			}
 		});
@@ -39,7 +38,6 @@ class App extends React.Component {
 	}
 	
 	render () {
-		console.log(this.state.resumeData);
 		return (
       <div className="App">
         <Header />
